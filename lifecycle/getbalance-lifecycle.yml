@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.getbalance.com/
+status_page: https://status.getbalance.com/
+status_page_provider: Atlassian Statuspage
+status_page_components: 12
+change_communication: https://updates.getbalance.com/
+versioning:
+  scheme: unknown
+  note: >-
+    Developer/API reference is gated behind a request form (ReadMe-hosted), so
+    the public versioning and deprecation policy could not be captured.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+sla:
+  url: null
+  note: >-
+    No public SLA/uptime commitment page found; the status page reports 100%
+    uptime over 90 days across 12 components at probe time.
+deprecated_operations: []

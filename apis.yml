@@ -1,7 +1,18 @@
 aid: getbalance
 name: Getbalance
-description: Getbalance is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Balance (Getbalance) provides financial infrastructure for B2B commerce. The
+  platform offers embedded digital trade credit, B2B buy-now-pay-later (BNPL)
+  financing at checkout, multi-rail B2B payments (ACH, wire, credit card, and
+  global processing), marketplace payouts, and order-to-cash automation covering
+  invoicing, collections, and cash application. Balance lets merchants and
+  marketplaces offer net payment terms to business buyers while automating the
+  entire invoice-to-cash workflow, with real-time credit intelligence and
+  autonomous accounts receivable. It integrates with commerce platforms
+  including Salesforce Commerce, Adobe Commerce (Magento), BigCommerce, and
+  Shopify, and marketplace systems such as Mirakl, Logicbroker, and Nautical
+  Commerce. Balance is a Y Combinator-backed fintech recognized on CNBC's
+  World's Top Fintech Companies list.
 url: https://raw.githubusercontent.com/api-evangelist/getbalance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,96 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.getbalance.com/wp-content/uploads/2023/06/logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Payments
+- B2B Payments
+- Trade Credit
+- BNPL
+- Accounts Receivable
+- Financial Infrastructure
+- Fintech
+- Order-to-Cash
+- Embedded Finance
+- Marketplace
+apis:
+- name: Balance API
+  description: >-
+    The Balance API powers embedded B2B payments, digital trade credit, net
+    terms, and order-to-cash automation. Developer documentation is gated behind
+    a request form (ReadMe-hosted) and the production API is served from
+    api.getbalance.com.
+  humanURL: https://www.getbalance.com/get-api
+  baseURL: https://api.getbalance.com
+  tags:
+  - Payments
+  - B2B Payments
+  - Trade Credit
+common:
+- type: DomainSecurity
+  url: security/getbalance-domain-security.yml
+- type: Website
+  url: https://www.getbalance.com/
+- type: Documentation
+  url: https://www.getbalance.com/get-api
+- type: APIReference
+  url: https://www.getbalance.com/get-api
+- type: Portal
+  url: https://dashboard.getbalance.com/
+- type: Login
+  url: https://dashboard.getbalance.com/
+- type: SignUp
+  url: https://www.getbalance.com/request-a-demo/
+- type: Blog
+  url: https://www.getbalance.com/blog/
+- type: Support
+  url: https://www.getbalance.com/contact-us/
+- type: TermsOfService
+  url: https://www.getbalance.com/legal/balance-website-terms
+- type: PrivacyPolicy
+  url: https://www.getbalance.com/legal/privacy-policy
+- type: Security
+  url: https://www.getbalance.com/legal/security-policy
+- type: StatusPage
+  url: https://status.getbalance.com/
+- type: ChangeLog
+  url: https://updates.getbalance.com/
+- type: Integrations
+  url: https://www.getbalance.com/products/integrations/
+- type: ChangeLog
+  url: changelog/getbalance-changelog.yml
+- type: Lifecycle
+  url: lifecycle/getbalance-lifecycle.yml
+- type: Conformance
+  url: conformance/getbalance-conformance.yml
+- type: Compliance
+  url: https://www.getbalance.com/legal/security-policy
+- type: VulnerabilityDisclosure
+  url: security/getbalance-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/getbalance-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

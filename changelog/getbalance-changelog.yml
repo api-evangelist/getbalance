@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: https://updates.getbalance.com/
+scheme: monthly-recap
+summary: >-
+  Balance publishes a monthly product-updates recap on an Atlassian-style
+  changelog portal. Each dated post ("Product Updates: <Month>") summarizes the
+  2-3 most notable feature additions across payments, buyer experience, dispute
+  management, credit onboarding, and integrations.
+entries:
+- date: '2026-07-06'
+  title: 'Product Updates: June 2026'
+  highlights:
+  - Faster transaction creation
+  - End-to-end dispute handling
+- date: '2026-06-23'
+  title: 'Product Updates: May 2026'
+  highlights:
+  - Enhanced integration control
+  - Visibility improvements
+  - Commercial levers
+- date: '2026-05-14'
+  title: 'Product Updates: April 2026'
+  highlights:
+  - Easier buyer onboarding and self-serve capabilities
+  - Improved refund visibility
+- date: '2026-04-13'
+  title: 'Product Updates: March 2026'
+  highlights:
+  - Full credit memo support
+  - Real-time dispute visibility
+  - Simplified consolidated invoicing setup
+- date: '2026-03-10'
+  title: 'Product Updates: February 2026'
+  highlights:
+  - Expanded buyer payment flexibility
+  - Account visibility enhancements
+  - Credit onboarding improvements

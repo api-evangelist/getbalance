@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.getbalance.com/legal/security-policy
+standards:
+- id: pci-dss
+  conforms: true
+  level: Service Provider Level 1
+  evidence: >-
+    Balance's security policy states it is certified to PCI Service Provider
+    Level 1 (the most stringent certification level in the payments industry)
+    through its payment processor, Stripe.
+  source: https://www.getbalance.com/legal/security-policy
+- id: gdpr
+  conforms: true
+  evidence: >-
+    Privacy policy references EU data transfers under standard data protection
+    clauses adopted by the European Commission and statutory data-subject rights
+    (access, deletion, portability).
+  source: https://www.getbalance.com/legal/privacy-policy
+- id: tls-in-transit
+  conforms: true
+  evidence: >-
+    HTTPS with RSA 2048-bit encryption in transit; AES-256 at rest per the
+    published security policy.
+  source: https://www.getbalance.com/legal/security-policy
+- id: soc2
+  conforms: false
+  evidence: Not claimed on the public security policy page.
+- id: iso27001
+  conforms: false
+  evidence: Not claimed on the public security policy page.
+notes: >-
+  Derived from public legal/security pages only; the developer/API reference is
+  gated behind a request form, so no OpenAPI was available to derive
+  cross-cutting API standards (RFC 9457, pagination, idempotency, OAuth2/OIDC).
